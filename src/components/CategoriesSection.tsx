@@ -82,6 +82,8 @@ const CategoriesSection = () => {
     ? "/trophy"
     : cat.title === "Packaging"
     ? "/Packaging"
+    : cat.title === "Executive & VIP"
+    ? "/Executive"
          : "#"
         }
               variants={itemVariants}
