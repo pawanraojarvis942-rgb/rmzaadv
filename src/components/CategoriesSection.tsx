@@ -14,7 +14,7 @@ const categories = [
   { title: "Lanyard", image: lanyard },
   { title: "Medals & Trophy", image: trophy },
   { title: "Awards & Plaques", image: awards },
-  { title: "Luxury Bags", image: bag },
+  { title: "Packaging", image: bag },
   { title: "Stationery", image: stationary },
   { title: "Jute & Cotton Bags", image: "https://alremouz.com/wp-content/uploads/2025/05/8.webp" },
   { title: "Pin & Badges", image: pins },
