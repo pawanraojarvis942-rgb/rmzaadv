@@ -10,7 +10,7 @@ import Apparels from "../assets/Apparels.jpg";
 
 
 const categories = [
-  { title: "Luxury Gift Items", image: LuxuryGiftItems },
+  { title: "Executive & VIP", image: LuxuryGiftItems },
   { title: "Lanyard", image: lanyard },
   { title: "Medals & Trophy", image: trophy },
   { title: "Awards & Plaques", image: awards },
@@ -80,6 +80,8 @@ const CategoriesSection = () => {
           ? "/awards"
           : cat.title === "Medals & Trophy"
     ? "/trophy"
+    : cat.title === "Packaging"
+    ? "/Packaging"
          : "#"
         }
               variants={itemVariants}
