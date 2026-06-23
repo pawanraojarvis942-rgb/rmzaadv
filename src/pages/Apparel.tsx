@@ -1,4 +1,4 @@
-import barbara from "../assets/barbara.jpg";
+
 import grey from "../assets/grey.jpg";
 import hoodie from "../assets/hoodie.jpg"
 import joejuice from "../assets/joejuice.jpg";
@@ -14,11 +14,6 @@ const Apparel = () => {
     </h1>
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-      <div>
-        <img src={barbara} alt="Product" className="rounded-xl w-full h-80 object-cover" />
-        <h3 className="mt-3 text-xl font-semibold"></h3>
-      </div>
 
       <div>
         <img src={grey} alt="Product" className="rounded-xl w-full h-80 object-cover" />
