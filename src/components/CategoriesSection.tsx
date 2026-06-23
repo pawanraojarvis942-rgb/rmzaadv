@@ -15,7 +15,7 @@ const categories = [
   { title: "Medals & Trophy", image: trophy },
   { title: "Awards & Plaques", image: awards },
   { title: "Packaging", image: bag },
-  { title: "Stationery", image: stationary },
+  { title: "Corporate Gifts", image: stationary },
   { title: "Jute & Cotton Bags", image: "https://alremouz.com/wp-content/uploads/2025/05/8.webp" },
   { title: "Pin & Badges", image: pins },
   { title: "Apparel & Wearables", image: Apparels },
@@ -84,6 +84,8 @@ const CategoriesSection = () => {
     ? "/Packaging"
     : cat.title === "Executive & VIP"
     ? "/Executive"
+    : cat.title === "Corporate Gifts"
+    ? "/Corporate"
          : "#"
         }
               variants={itemVariants}

@@ -12,6 +12,7 @@ import Trophy from "./pages/Trophy";
 import Catalogue from "./pages/Catelogue.tsx";
 import Packaging from "./pages/Packaging.tsx";
 import Executive from "./pages/Executive.tsx";
+import Corporate from "./pages/Corporate.tsx";
 
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/Corporate" element={<Corporate />} />
           <Route path="/Executive" element={<Executive />} />
           <Route path="/Packaging" element={<Packaging />} />
           <Route path="/Catalogue" element={<Catalogue />} />
