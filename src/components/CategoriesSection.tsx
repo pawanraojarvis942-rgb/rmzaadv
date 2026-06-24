@@ -59,7 +59,7 @@ const CategoriesSection = () => {
           className="text-center mb-16"
         >
           <h2 className="font-heading text-4xl md:text-5xl font-bold">
-            Promotional <span className="text-gradient-accent">Gifts</span> Categories
+            Promotional <span className="text-[#20bf97]">Gifts</span> Categories
           </h2>
         </motion.div>
 
