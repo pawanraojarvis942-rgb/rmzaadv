@@ -5,7 +5,7 @@ import umbrella from "../assets/umbrella.jpg";
 import plague   from "../assets/plague.jpg";
 import flag  from "../assets/flag.jpg";
 import awards   from "../assets/awards.jpg";
-import heroVideo from "../assets/hero.mp4";
+import heroVideo from "../assets/heroVideo.mp4";
 
 const heroImages = [
   corporate,
@@ -47,9 +47,9 @@ const HeroSection = () => {
   <source src={heroVideo} type="video/mp4" />
 </video>
 
-<div className="absolute inset-0 bg-black/25"></div>
 
-      {/* Animated floating orbs */}
+
+     {/* Animated floating orbs */}
       <FloatingOrb
         className="absolute top-20 left-1/4 w-80 h-80 bg-primary/8 rounded-full blur-[100px]"
         delay={0}
