@@ -7,12 +7,14 @@ import TeamSection from "@/components/TeamSection";
 import BlogSection from "@/components/BlogSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import ClientLogos from "@/components/ClientLogos";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
       <HeroSection />
+      <ClientLogos />
       <ServicesSection />
       <AboutSection />
       <CategoriesSection />

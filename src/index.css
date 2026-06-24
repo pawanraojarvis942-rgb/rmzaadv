@@ -161,3 +161,31 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #4b5563;
 }
+
+.slider {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.slide-track {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
