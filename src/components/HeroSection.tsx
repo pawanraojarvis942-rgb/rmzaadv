@@ -5,7 +5,7 @@ import umbrella from "../assets/umbrella.jpg";
 import plague   from "../assets/plague.jpg";
 import flag  from "../assets/flag.jpg";
 import awards   from "../assets/awards.jpg";
-
+import heroVideo from "../assets/hero.mp4";
 
 const heroImages = [
   corporate,
@@ -37,6 +37,18 @@ const HeroSection = () => {
   return (
    <section id="home" className="relative min-h-screen flex flex-col items-center justify-center">
 
+    <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="absolute inset-0 w-full h-full object-cover"
+>
+  <source src={heroVideo} type="video/mp4" />
+</video>
+
+<div className="absolute inset-0 bg-black/50"></div>
+
       {/* Animated floating orbs */}
       <FloatingOrb
         className="absolute top-20 left-1/4 w-80 h-80 bg-primary/8 rounded-full blur-[100px]"
@@ -63,9 +75,7 @@ const HeroSection = () => {
         transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
       />
 
-    {/* Geometric pattern overlay */}
-  <div className="absolute inset-0 geometric-pattern opacity-20"/>
-
+  
       {/* Small floating particles */}
       {[...Array(6)].map((_, i) => (
         <motion.div
