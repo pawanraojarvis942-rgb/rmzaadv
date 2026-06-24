@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "../assets/logo.png";
 
 const IntroLoader = () => {
   return (
@@ -41,48 +42,50 @@ const IntroLoader = () => {
         }}
       />
 
-      {/* Text */}
-      <motion.div
-  initial="hidden"
-  animate="visible"
-  variants={{
-    hidden: {},
-    visible: {
-      transition: {
-        staggerChildren: 0.25,
-      },
-    },
+      {/* Logo Reveal */}
+<motion.div
+  className="flex flex-col items-center justify-center"
+  initial={{ opacity: 0, scale: 0.7 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{
+    duration: 1.2,
+    ease: "easeOut",
   }}
-  className="flex justify-center gap-4 perspective-{1200px}"
 >
-  {["AL", "REMOUZ"].map((word, index) => (
-    <motion.span
-      key={index}
-      variants={{
-        hidden: {
-          opacity: 0,
-          y: 100,
-          rotateX: 90,
-          filter: "blur(10px)",
-        },
-        visible: {
-          opacity: 1,
-          y: 0,
-          rotateX: 0,
-          filter: "blur(0px)",
-        },
-      }}
-      transition={{
-        duration: 1.2,
-        ease: "easeOut",
-      }}
-      className={`text-6xl md:text-8xl font-[Playfair_Display] font-bold drop-shadow-[0_0_20px_rgba(255,255,255,0.25)] ${
-  word === "REMOUZ" ? "text-primary" : "text-white"
-}`}
-    >
-      {word}
-    </motion.span>
-  ))}
+  <motion.img
+    src={logo}
+    alt="Al Remouz"
+    className="w-52 md:w-80 object-contain drop-shadow-[0_0_40px_rgba(0,255,200,0.4)]"
+    animate={{
+      scale: [1, 1.05, 1],
+    }}
+    transition={{
+      duration: 3,
+      repeat: Infinity,
+      ease: "easeInOut",
+    }}
+  />
+
+  <motion.div
+    className="absolute w-64 h-64 bg-primary/20 rounded-full blur-[100px]"
+    animate={{
+      scale: [1, 1.3, 1],
+      opacity: [0.4, 0.8, 0.4],
+    }}
+    transition={{
+      duration: 3,
+      repeat: Infinity,
+    }}
+  />
+
+  <motion.p
+    className="mt-6 text-white/70 tracking-[6px] text-sm uppercase"
+    initial={{ opacity: 0, y: 10 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ delay: 0.8 }}
+  >
+    Advertising & Gift Supply
+  </motion.p>
 </motion.div>
 
         <motion.p
