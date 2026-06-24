@@ -7,7 +7,7 @@ const IntroLoader = () => {
       className="fixed inset-0 z-[9999] overflow-hidden bg-gradient-to-br from-[#0f172a] via-[#111827] to-[#1e293b]"
       initial={{ opacity: 1 }}
       animate={{ opacity: 0 }}
-      transition={{ delay: 3.5, duration: 1.2, ease: "easeInOut" }}
+      transition={{ delay: 2, duration: 0.8, ease: "easeInOut" }}
     >
       {/* Background Glow */}
       <motion.div
