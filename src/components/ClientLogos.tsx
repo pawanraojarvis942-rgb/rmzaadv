@@ -29,7 +29,7 @@ const ClientLogos = () => {
     <section className="py-16 overflow-hidden">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold">
-  Serving Businesses <span className="text-[#2596be]">Across The UAE</span>
+  Serving Businesses <span className="text-[#21c099]">Across The UAE</span>
 </h2>
       </div>
 
