@@ -29,7 +29,7 @@ const ClientLogos = () => {
     <section className="py-16 overflow-hidden">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold">
-  Serving Businesses <span className="text-[#F4B223]">Across The UAE</span>
+  Serving Businesses <span className="text-[#2596be]">Across The UAE</span>
 </h2>
       </div>
 
@@ -37,11 +37,11 @@ const ClientLogos = () => {
         <div className="slide-track">
           {[...logos, ...logos].map((logo, index) => (
             <img
-              key={index}
-              src={logo}
-              alt="Client Logo"
-             className="h-20 p-4 bg-white/10 backdrop-blur-md rounded-xl border border-white/20"
-            />
+  key={index}
+  src={logo}
+  alt="Client Logo"
+  className="h-20 object-contain opacity-90 hover:opacity-100 transition-all duration-300"
+/>
           ))}
         </div>
       </div>
