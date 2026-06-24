@@ -119,13 +119,13 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="font-heading text-5xl md:text-7xl font-bold leading-tight mb-6"
         >
-          Crafted for Brands That Demand,{" "}
+          Where Brands Become {" "}
           <motion.span
             className="text-gradient-accent italic inline-block"
             animate={{ scale: [1, 1.02, 1] }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
           >
-            Excellence
+            Memorable
           </motion.span>
         </motion.h1>
 
@@ -135,7 +135,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.7 }}
           className="font-body text-lg text-white max-w-2xl mx-auto leading-relaxed"
         >
-          Exclusive promotional gifts and advertising solutions tailored for premium businesses.
+          Delivering custom promotional gifts, awards, printing, and branding solutions trusted by leading businesses across the UAE.
         
         </motion.p>
 
