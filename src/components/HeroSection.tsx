@@ -133,7 +133,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
-          className="font-body text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed"
+          className="font-body text-lg text-white max-w-2xl mx-auto leading-relaxed"
         >
           Exclusive promotional gifts and advertising solutions tailored for premium businesses.
         
