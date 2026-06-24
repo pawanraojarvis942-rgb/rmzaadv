@@ -1,5 +1,9 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
+import lux1 from "../assets/lux1.jpg";
+import lux2 from "../assets/lux2.jpg";
+import lux3 from "../assets/lux3.jpg";
+import lux4 from "../assets/lux4.jpg";
 
 const stats = [
   { value: 100, suffix: "%", label: "Customer Satisfaction" },
@@ -18,10 +22,10 @@ const capabilities = [
 ];
 
 const galleryImages = [
-  "https://alremouz.com/wp-content/uploads/2025/05/IMG-20250501-WA0050-rotated-368x442.jpg",
-  "https://alremouz.com/wp-content/uploads/2025/04/470223208_524849103889480_8245584230351986001_n-368x442.png",
-  "https://alremouz.com/wp-content/uploads/2025/04/470197375_524848770556180_4631044460186251614_n-368x442.png",
-  "https://alremouz.com/wp-content/uploads/2025/05/IMG-20250526-WA0033-368x442.jpg",
+  lux1,
+  lux2,
+  lux3,
+  lux4,
 ];
 
 const AnimatedCounter = ({ value, suffix }: { value: number; suffix: string }) => {
