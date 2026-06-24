@@ -40,7 +40,7 @@ const ClientLogos = () => {
   key={index}
   src={logo}
   alt="Client Logo"
-  className="h-20 object-contain opacity-90 hover:opacity-100 transition-all duration-300"
+  className="h-25 object-contain opacity-90 hover:opacity-100 transition-all duration-300"
 />
           ))}
         </div>
