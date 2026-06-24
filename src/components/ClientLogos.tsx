@@ -40,7 +40,7 @@ const ClientLogos = () => {
               key={index}
               src={logo}
               alt="Client Logo"
-             className="h-20 p-4 bg-white/20 backdrop-blur-md rounded-xl object-contain shadow-lg hover:scale-105 transition-all duration-300"
+             className="h-20 p-4 bg-white/10 backdrop-blur-md rounded-xl border border-white/20"
             />
           ))}
         </div>
