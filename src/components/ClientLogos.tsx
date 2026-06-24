@@ -31,7 +31,7 @@ const ClientLogos = () => {
               key={index}
               src={logo}
               alt="Client Logo"
-              className="h-16 object-contain opacity-70 hover:opacity-100 transition-all duration-300"
+             className="h-20 p-4 bg-white rounded-xl object-contain shadow-lg hover:scale-105 transition-all duration-300"
             />
           ))}
         </div>
