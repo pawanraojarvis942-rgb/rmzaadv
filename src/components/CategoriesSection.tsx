@@ -86,6 +86,8 @@ const CategoriesSection = () => {
     ? "/Executive"
     : cat.title === "Corporate Gifts"
     ? "/Corporate"
+    : cat.title === "Pins & Badges"
+    ? "/Pins"
          : "#"
         }
               variants={itemVariants}
