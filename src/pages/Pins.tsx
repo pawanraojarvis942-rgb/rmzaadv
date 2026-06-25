@@ -7,6 +7,8 @@ import pin6 from "../assets/pin6.jpg";
 import pin7 from "../assets/pin7.jpg";
 import pin8 from "../assets/pin8.jpg";
 import pin9 from "../assets/pin9.jpg";
+import pin10 from "../assets/pin10.jpg";
+import pin11 from "../assets/pin11.jpg";
 
 const Pins = () => {
   return (
@@ -26,6 +28,11 @@ const Pins = () => {
         <img src={pin7} alt="Award 6" className="w-full rounded-xl" />
         <img src={pin8} alt="Award 6" className="w-full rounded-xl" />
         <img src={pin9} alt="Award 6" className="w-full rounded-xl" />
+        <img src={pin10} alt="Award 6" className="w-full rounded-xl" />
+        <img src={pin11} alt="Award 6" className="w-full rounded-xl" />
+
+        
+
 
       </div>
     </div>
