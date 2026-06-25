@@ -12,7 +12,7 @@ const Pins = () => {
   return (
     <div className="p-10">
       <h1 className="text-4xl font-bold mb-8">
-        Pins&Badges
+        Pin & Badges
       </h1>
 
       <div className="grid md:grid-cols-2 gap-6">
