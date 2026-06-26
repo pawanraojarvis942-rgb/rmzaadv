@@ -18,16 +18,16 @@ const Executive = () => {
 
       <div className="grid md:grid-cols-2 gap-6">
 
-        <img src={vip1} alt="Award 1" className="w-full rounded-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-2xl" />
-        <img src={vip2} alt="Award 2" className="w-full rounded-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-2xl" />
-        <img src={vip3} alt="Award 3" className="w-full rounded-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-2xl" />
-        <img src={vip4} alt="Award 4" className="w-full rounded-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-2xl" />
-        <img src={vip5} alt="Award 5" className="w-full rounded-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-2xl" />
-        <img src={vip6} alt="Award 6" className="w-full rounded-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-2xl" />
-        <img src={vip7} alt="Award 6" className="w-full rounded-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-2xl" />
-        <img src={vip8} alt="Award 6" className="w-full rounded-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-2xl" />
-        <img src={vip9} alt="Award 6" className="w-full rounded-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-2xl" />
-        <img src={vip10}alt="Award 6" className="w-full rounded-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-2xl" />
+        <img src={vip1} alt="Award 1" className="w-full rounded-xl transition-all duration-500  hover:-translate-y-1 hover:shadow-2xl" />
+        <img src={vip2} alt="Award 2" className="w-full rounded-xl transition-all duration-500  hover:-translate-y-1 hover:shadow-2xl" />
+        <img src={vip3} alt="Award 3" className="w-full rounded-xl transition-all duration-500  hover:-translate-y-1 hover:shadow-2xl" />
+        <img src={vip4} alt="Award 4" className="w-full rounded-xl transition-all duration-500  hover:-translate-y-1 hover:shadow-2xl" />
+        <img src={vip5} alt="Award 5" className="w-full rounded-xl transition-all duration-500  hover:-translate-y-1 hover:shadow-2xl" />
+        <img src={vip6} alt="Award 6" className="w-full rounded-xl transition-all duration-500  hover:-translate-y-1 hover:shadow-2xl" />
+        <img src={vip7} alt="Award 6" className="w-full rounded-xl transition-all duration-500  hover:-translate-y-1 hover:shadow-2xl" />
+        <img src={vip8} alt="Award 6" className="w-full rounded-xl transition-all duration-500  hover:-translate-y-1 hover:shadow-2xl" />
+        <img src={vip9} alt="Award 6" className="w-full rounded-xl transition-all duration-500  hover:-translate-y-1 hover:shadow-2xl" />
+        <img src={vip10}alt="Award 6" className="w-full rounded-xl transition-all duration-500  hover:-translate-y-1 hover:shadow-2xl" />
 
       </div>
     </div>
